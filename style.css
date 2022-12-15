@@ -1,0 +1,482 @@
+/***************************************************************section0 présentation*********************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-left: 1000px;
+
+}
+
+.navbar a {
+  color: gray;
+}
+
+#a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #00c3a5;
+  text-align: center;
+}
+
+#section0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+}
+
+#section0 div {
+  width: 350px;
+  height: 200px;
+}
+
+/******************************************************* section1 doctors-patients-clinics *************************************************/
+#section1 {
+  /*width: 70%;*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  grid-template-areas: "patients""doctors""clinics";
+  column-gap: 10px;
+  padding-left: 10px;
+  width: 70%;
+  margin: auto;
+  padding-right: 10px;
+  color: white;
+  font-weight: 100;
+  font-size: larger;
+  font-family: Roboto;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+
+}
+
+
+.section1 h3 {
+  padding: 20px;
+  margin: 10px;
+
+}
+
+.section1 p {
+  margin: 20px;
+  padding: 10px;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: white;
+  font-size: 22px;
+}
+
+option {
+  color: gray;
+}
+
+.patients {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+.doctors {
+  background-color: #3d83df;
+  border-radius: 10px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+.clinics {
+  background-color: #1b2734;
+  border-radius: 10px;
+  height: 300px;
+  font-size: 22px;
+  padding: 30px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+/*******************************************************section 2 des tags******************************************************************/
+#section2 {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  height: 100px;
+  color: #dadada;
+}
+
+.title {
+  color: #6bb39b;
+  font-weight: 100;
+  font-size: smaller;
+  font-family: Roboto;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  line-height: 20px;
+  word-spacing: 5px;
+  text-align: center;
+}
+
+.ZnanyLekarz {
+  height: 300px;
+  /*width: 100px;
+  font-size: 22px;*/
+}
+
+
+.Doctoralia {
+  padding: 30px;
+  width: 100px;
+  height: 300px;
+  font-size: 22px;
+}
+
+.MioDottore {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.DoktorTakvimi {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.TUOTEMP {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.gipo {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.ClinicCloud {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.jameda {
+
+  width: 100px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+}
+
+/************************************************* section 3 du logo **********************************************************************/
+.section3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #d6f5f6;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  height: 420px;
+
+}
+
+.col-1 {
+  position: relative;
+  width: 80%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.col-1 p {
+  color: gray;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding: 10px;
+  grid-gap: 10px;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.translate {
+  transform: translateY(20px);
+}
+
+.card p {
+  color: gray;
+  font-size: 16;
+}
+
+.card h4 {
+  color: #00ccb1;
+  font-size: 18px;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 145px;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+}
+
+/********************************************************** section4 du texte ************************************************************/
+.section4 h2 {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #00ccb1;
+}
+
+.section4 p {
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/******************************************** section5 des villes ************************************************************************/
+#premier {
+  /*display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-areas: "11 21 31"
+    "12 22 32"
+    "13 23 33";*/
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#premier div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#second {
+
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#second div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#third {
+
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#third div {
+
+  width: 250px;
+  height: 300px;
+  padding: 30px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+button {
+  background-color: #3d83df;
+  border: 0;
+  outline: 0;
+  width: 120px;
+  height: 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/*********************************************************contact**********************************************************/
+.contact p {
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background-color: #00c3a5;
+  width: 30%;
+  margin: auto;
+  height: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+.contact button {
+  background-color: #008CBA;
+  /* Blue */
+  color: white;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  display: block;
+  height: 40px;
+  border: none;
+  margin-bottom: 20px;
+
+}
+
+/**************************************************** footer ************************************************************/
+footer {
+
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: gray;
+
+}
+
+/************************************************************ Responsive **********************************************************************/
+@media (max-width:500px) {
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #section0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+  }
+
+  #section0 p {
+    text-align: center;
+    width: 100%;
+  }
+
+  #section1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 70%;
+    margin: auto;
+    /*grid-gap:10px;*/
+    text-align: center;
+  }
+
+  .patients {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .doctors {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .clinics {
+    width: 100%;
+    margin-bottom: 5px;
+
+
+  }
+
+  .section3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-columns: (2, 1fr);
+    background-color: #d6f5f6;
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+    height: 420px;
+  }
+
+  .card p {
+    width: 100%;
+    color: gray;
+    font-size: 16;
+    text-align: center;
+
+  }
+
+  .card h4 {
+    width: 100%;
+    text-align: center;
+    color: #00ccb1;
+    font-size: 18px;
+  }
+}

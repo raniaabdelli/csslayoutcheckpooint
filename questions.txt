@@ -1,0 +1,5 @@
+@media screen defines only the maximum width
+Default Answer Icon
+True
+Correct Checked Icon
+False
